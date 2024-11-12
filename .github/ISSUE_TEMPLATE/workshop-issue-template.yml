@@ -1,6 +1,6 @@
 name: Workshop codelist template
 description: Use to record condition/procedure/test codelists
-title: '[Delete as appropriate] *SYMPTOM*: Workshop breathlessness'
+title: '*SYMPTOM*: Workshop breathlessness'
 labels: ["codelist"]
 body: 
   - type: markdown
