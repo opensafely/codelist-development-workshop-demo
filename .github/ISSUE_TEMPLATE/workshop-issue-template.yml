@@ -1,6 +1,6 @@
-name: Clinical codelist template
+name: Workshop codelist template
 description: Use to record condition/procedure/test codelists
-title: '[Delete as appropriate] *CONDITION*/*PROCEDURE*/*TEST*/*OTHER*: [TITLE]'
+title: '[Delete as appropriate] *SYMPTOM*: Workshop breathlessness'
 labels: ["codelist"]
 body: 
   - type: markdown
@@ -10,7 +10,7 @@ body:
     attributes:
       label: User requirements
       description: Explain what the purpose of the codelist is and give context of how it will be used, including - What is the purpose of the codelist? Will the codelist be used in a particular study? Will it be used alone or in combination with other codelists/logic? Generally the more information the better.
-      placeholder: 
+      placeholder: A new viral illness has emerged, presenting a range of potential symptoms, with breathlessness being one of the primary complaints reported by patients. A research project is looking to identify a link between different symptoms of the illness and hospital admission. The purpose of this codelist is to identify and categorise instances of symptomatic breathlessness. This will be used in conjunction with a codelist defining a positive test for the new viral illness.
     validations:
       required: true
   - type: textarea
