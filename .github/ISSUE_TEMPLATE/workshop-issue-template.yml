@@ -17,14 +17,14 @@ body:
     attributes:
       label: Sensitivity versus specificity
       description: If possible, give an idea of what the balance should be, for example, I only want to identify confirmed cases of COVID-19 (more specific) versus I want to identify anyone with even a potential COVID-19 symptom (more sensitive). [Further info](https://en.wikipedia.org/wiki/Sensitivity_and_specificity).
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false
   - type: textarea
     attributes:
       label: Relevant definitions or links to important reference sources
       description: If known, add any relevant definitions or important reference sources, which will aid codelist construction.
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false
   - type: dropdown
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Existing relevant codelists
       description: Are you aware of any existing similar codelists ([OpenCodelists](https://www.opencodelists.org/), [Primary Care Domain Refsets](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/primary-care-domain-reference-set-portal))? Why aren't these suitable to reuse?
-      placeholder: Leave blank if unsure
+      placeholder: Ignore this for the purposes of this workshop
     validations:
       required: false
   - type: markdown
@@ -56,30 +56,30 @@ body:
   - type: textarea
     attributes:
       label: Search terms / synonyms / search strategy
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false
   - type: textarea
     attributes:
       label: Inclusion criteria for codes
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false
   - type: textarea
     attributes:
       label: Exclusion criteria for codes
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false
   - type: textarea
     attributes:
       label: Borderline cases
-      placeholder: Leave blank if unsure
+      placeholder:
     validations:
       required: false  
   - type: input
     attributes:
       label: Final codelist
-      placeholder: Leave blank until completed
+      placeholder:
     validations:
       required: false
